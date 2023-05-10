@@ -6,7 +6,7 @@ import webbrowser
 import json
 import asyncio
 
-with open("sunday.json") as file:
+with open("Sunday.json") as file:
     sunday_file = json.load(file)["Personal_Details"]
 if __name__ == "__main__":
     while True:
