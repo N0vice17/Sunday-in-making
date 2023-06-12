@@ -9,7 +9,7 @@ import os
 import smtplib
 import pywhatkit
 
-with open("Sunday.json") as file:
+with open("D:\Programs\Sunday\Sunday.json") as file:
     sunday_file = json.load(file)["Personal_Details"]
 
 
